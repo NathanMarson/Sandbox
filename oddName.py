@@ -1,4 +1,6 @@
 """Nathan Marson"""
 name = input("Name: ")
-try:
-    print(name.format)
+if name == "":
+    print("Invalid Input")
+    name = input("Name: ")
+print(name[1::2])
